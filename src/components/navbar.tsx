@@ -18,7 +18,7 @@ function NavItem({ children, href }: NavItemProps) {
       <Typography
         as="a"
         href={href || "#"}
-        target={href ? "_blank" : "_self"}
+        target={"_blank"}
         variant="small"
         className="font-medium"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
         {children}
@@ -57,42 +57,41 @@ export function Navbar() {
       fullWidth
       shadow={false}
       blurred={false}
-      color={isScrolling ? "white" : "transparent"}
-      className="fixed top-0 z-50 border-0"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    >
+      // color={isScrolling ? "white" : "gray"}
+      // color={"gray"}
+      className="sticky top-0 z-50 border-0 shadow shadow-black bg-gray-700"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    >
       <div className="container mx-auto flex items-center justify-between">
         {/* Dynamic logo based on scroll */}
         <a href="/" className="flex items-center">
           <img
-            src={isScrolling ? "/image/blacklogo.png" : "/image/whitelogo.png"}
+            src={"/image/whitelogo.png"}
             alt="Stylehaws Logo"
             className="h-20"
           />
         </a>
         <ul
-          className={`ml-10 hidden items-center gap-6 lg:flex ${
-            isScrolling ? "text-gray-900" : "text-white"
-          }`}
+          className={`ml-10 hidden items-center gap-6 lg:flex "text-white"`}
         >
-          <NavItem>Home</NavItem>
-          <NavItem>Terms and Condition</NavItem>
-          <NavItem>Policies</NavItem>
+          <NavItem href="/">Home</NavItem>
+          <NavItem href="/termsandcondition">Terms and Condition</NavItem>
+          <NavItem href="/policies">Policies</NavItem>
         </ul>
         <div className="hidden gap-2 lg:flex lg:items-center">
           <IconButton
             variant="text"
-            color={isScrolling ? "gray" : "white"}
+            color={"white"}
             size="sm" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <i className="fa-brands fa-twitter text-base" />
           </IconButton>
           <IconButton
             variant="text"
-            color={isScrolling ? "gray" : "white"}
+            color={"white"}
             size="sm" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <i className="fa-brands fa-facebook text-base" />
           </IconButton>
           <IconButton
             variant="text"
-            color={isScrolling ? "gray" : "white"}
+            color={"white"}
             size="sm" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
