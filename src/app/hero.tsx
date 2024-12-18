@@ -16,7 +16,7 @@ function Hero() {
             <Typography
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
-           StyleHaws: Where Global Design Meets Your Unique Style
+           Where Global Design Meets Your Unique Style
             </Typography>
             <Typography className="mb-4" color="white" variant="h6"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               Get the app
@@ -61,13 +61,19 @@ function Hero() {
       </header>
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
-          <Typography variant="h3" color="blue-gray" className="mb-3" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-            About Stylehaws
+          <Typography variant="h3" color="blue-gray" className="mb-1" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+          Welcome to Stylehaws
           </Typography>
           <Typography
             variant="paragraph"
-            className="font-normal !text-black-500 lg:w-5/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-                      An all-in-one platform where designers can showcase their exceptional creations to a global audience. Fashion enthusiasts can explore and purchase these products or customize their selections with the help of expert designers.App transforming the future of fashion design
+            className="font-normal !text-black-500 lg:w-5/12 mb-3"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+           Your Personalized Fashion & Design Marketplace!
+
+          </Typography>
+          <Typography
+            variant="paragraph"
+            className="font-normal !text-gray-600 lg:w-5/12 text-justify"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+            Stylehaws is a one-stop platform connecting consumers with talented designers and tailors to bring your fashion dreams to life. Whether you’re shopping for unique, handcrafted products or looking to create something entirely custom, Stylehaws has you covered.
 
           </Typography>
         </div>
