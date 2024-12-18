@@ -5,7 +5,7 @@ const Policies: FC = () => {
   return (
     <div className='!bg-black'>
       <Navbar />
-      <div className="p-6 sm:p-8 lg:p-10 bg-gray-900 text-white">
+      <div className="p-6 sm:p-8 lg:p-10 bg-gray-900 text-white mt-20">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-3xl font-bold mb-6 text-center">Privacy Policy</h1>
 

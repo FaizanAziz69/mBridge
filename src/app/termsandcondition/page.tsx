@@ -3,9 +3,9 @@ import { FC } from 'react';
 
 const Terms: FC = () => {
   return (
-    <div>
+    <div >
     <Navbar />
-    <div className="p-6 sm:p-8 lg:p-10 bg-gray-900 text-white">
+    <div className="p-6 sm:p-8 lg:p-10 bg-gray-900 text-white mt-20">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold mb-6 text-center">Terms and Conditions</h1>
 
@@ -95,13 +95,6 @@ const Terms: FC = () => {
           <h2 className="text-2xl font-semibold mb-4">App Usage</h2>
           <p>
             You agree to use the app in compliance with all applicable laws and not to engage in any activities that may harm or disrupt the app’s operation or other users' experiences.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
-          <p>
-            If you have any questions or concerns regarding these Terms and Conditions, please contact us at <span className="bg-gray-200 p-1">[contact email]</span> or through the app’s support feature.
           </p>
         </section>
 

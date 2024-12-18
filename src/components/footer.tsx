@@ -8,7 +8,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 export function Footer() {
   return (
     
-    <footer className="bg-gray-700 px-8 pt-12">
+    <footer className="bg-gray-700 px-8 pt-12 w-full">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
@@ -17,13 +17,14 @@ export function Footer() {
               target="_blank"
               variant="h5"
               color="white"
-              className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
+              className="mb-1"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               Stylehaws
             </Typography>
             <Typography color="white" className="mb-12 font-normal"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-            StyleHaws: Where Global Design Meets Your Unique Style
+            Where Global Design Meets Your Unique Style
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
+              <a href="/deleteaccount" className="!text-gray-200 font-medium underline">Need to delete your account?</a>
             </ul>
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
@@ -69,6 +70,9 @@ export function Footer() {
             </IconButton>
             <IconButton variant="text" color="white"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
+            </IconButton>
+            <IconButton variant="text" color="white"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+            <i className="fa-brands fa-tiktok text-2xl not-italic opacity-75" />
             </IconButton>
           </div>
         </div>

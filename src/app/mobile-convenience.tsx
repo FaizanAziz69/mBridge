@@ -27,7 +27,7 @@ const IMAGES_WITH_DESCRIPTIONS = [
       "Connect with designers and customers worldwide through real-time, language-free communication. Build meaningful collaborations and partnerships effortlessly.",
   },
   {
-    src: "/image/custom-order-portrait.png",
+    src: "/image/custom-order-portrait-img.png",
     alt: "Custom Orders",
     title: "Custom Orders",
     description:
