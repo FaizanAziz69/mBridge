@@ -40,6 +40,7 @@ const IMAGES_WITH_DESCRIPTIONS = [
     description:
       "Design like a pro by turning your ideas into reality with the power of AI. Unleash your creativity without any technical expertise.",
   },
+  
   {
     src: "/image/language-portrait.png",
     alt: "Multiple Language Support",
