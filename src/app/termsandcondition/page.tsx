@@ -50,16 +50,16 @@ const Terms: FC = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Payment and Transactions</h2>
           <p>
-            <span className="font-semibold">Payment Process:</span> Customers must make payment in advance upon acceptance of the quotation. Payments are processed through the app and held in the app’s account until the order is completed.
+            <span className="font-semibold">Payment Process:</span> Customers must make payment in advance upon acceptance of the quotation. Payments are processed through the app and held in the apps account until the order is completed.
           </p>
           <p className="mt-4">
-            <span className="font-semibold">New Designers:</span> Payments for orders by new designers will remain in the app’s account until the order is delivered. Designers may only cash out payments after the order is completed and shipped.
+            <span className="font-semibold">New Designers:</span> Payments for orders by new designers will remain in the apps account until the order is delivered. Designers may only cash out payments after the order is completed and shipped.
           </p>
           <p className="mt-4">
             <span className="font-semibold">Experienced Designers:</span> Designers with a minimum of 10 successful orders may request to cash out payments after the order is completed but before shipping the dress.
           </p>
         </section>
-
+'
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Order Fulfillment and Shipping</h2>
           <p>
@@ -71,7 +71,7 @@ const Terms: FC = () => {
           <h2 className="text-2xl font-semibold mb-4">Refunds and Disputes</h2>
           <h3 className="font-semibold">Refunds:</h3>
           <p>
-            Refunds are subject to the app's refund policy and will be processed if there is an issue with the order. The app will mediate disputes between customers and designers.
+            Refunds are subject to the apps refund policy and will be processed if there is an issue with the order. The app will mediate disputes between customers and designers.
           </p>
           <h3 className="font-semibold mt-4">Disputes:</h3>
           <p>
@@ -94,7 +94,7 @@ const Terms: FC = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">App Usage</h2>
           <p>
-            You agree to use the app in compliance with all applicable laws and not to engage in any activities that may harm or disrupt the app’s operation or other users' experiences.
+            You agree to use the app in compliance with all applicable laws and not to engage in any activities that may harm or disrupt the apps operation or other users experiences.
           </p>
         </section>
 

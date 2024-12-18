@@ -25,6 +25,7 @@ const Deleteaccount = () => {
         }
 
     ]
+
     return (
         <div className="flex flex-col gap-16">
             <Navbar />
