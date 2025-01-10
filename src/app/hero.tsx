@@ -33,7 +33,7 @@ function Hero() {
                   alt="metamask"
                   className="w-6 h-6"
                 />
-                  Comming Soon
+                  Coming Soon
               </Button>
               <Button
                 size="lg"
@@ -46,7 +46,7 @@ function Hero() {
                   alt="metamask"
                   className="w-6 h-6"
                 />
-                   Comming Soon
+                   Coming Soon
               </Button>
             </div>
           </div>

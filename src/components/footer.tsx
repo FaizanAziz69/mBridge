@@ -42,7 +42,7 @@ export function Footer() {
                   className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 />
-                Comming Soon
+                Coming Soon
               </Button>
               <Button
                 color="white"
@@ -54,7 +54,7 @@ export function Footer() {
                   className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 />
-                Comming Soon
+                Coming Soon
               </Button>
             </div>
           </div>
