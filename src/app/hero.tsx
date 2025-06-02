@@ -11,17 +11,17 @@ function Hero() {
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography variant="h1" color="white" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-              Stylehaws <br /> 
+              Media Bridge <br /> 
             </Typography>
             <Typography
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
-           Where Global Design Meets Your Unique Style
+          "News You Can Trust, Stories That Matter"
             </Typography>
-            <Typography className="mb-4" color="white" variant="h6"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+            {/* <Typography className="mb-4" color="white" variant="h6"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               Get the app
-            </Typography>
-            <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
+            </Typography> */}
+            {/* <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
               <Button
                 size="lg"
                 color="white"
@@ -48,12 +48,12 @@ function Hero() {
                 />
                    Coming Soon
               </Button>
-            </div>
+            </div> */}
           </div>
           <Image
             width={470}
-            height={576}
-            src="/image/mockup.png"
+            height={250}
+            src="/image/M.jpg"
             alt="team work"
             className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
           />
@@ -62,18 +62,19 @@ function Hero() {
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
           <Typography variant="h3" color="blue-gray" className="mb-1" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-          Welcome to Stylehaws
+          Welcome to Media Bridge
           </Typography>
           <Typography
             variant="paragraph"
-            className="font-normal !text-black-500 lg:w-5/12 mb-3"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-           Your Personalized Fashion & Design Marketplace!
+            className="font-normal !text-black-500 lg:w-5/12 mb-3"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}         >
+           Your Personalized Newspaper Advertising Partner!
 
           </Typography>
           <Typography
             variant="paragraph"
             className="font-normal !text-gray-600 lg:w-5/12 text-justify"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
-            Stylehaws is a one-stop platform connecting consumers with talented designers and tailors to bring your fashion dreams to life. Whether you’re shopping for unique, handcrafted products or looking to create something entirely custom, Stylehaws has you covered.
+           Media Bridge is a one-stop platform connecting businesses and individuals with top newspaper publishers to get your ads in print—quickly, easily, and effectively. Whether you're promoting your brand, making public announcements, or sharing personal milestones, Media Bridge ensures your message reaches the right audience through trusted newspapers.
+
 
           </Typography>
         </div>

@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
        
-        <title>StyleHaws</title>
+        <title>Media Bridge</title>
         <meta name="description" content="StyleHaws: Where Global Design Meets Your Unique Style" />
         <link
           rel="stylesheet"
