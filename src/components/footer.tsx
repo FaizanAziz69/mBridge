@@ -22,6 +22,8 @@ export function Footer() {
   placeholder={undefined}
   onPointerEnterCapture={undefined}
   onPointerLeaveCapture={undefined}
+  onResize={undefined}
+  onResizeCapture={undefined}
 >
   Media Bridge
 </Typography>
