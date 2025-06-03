@@ -148,24 +148,21 @@ export function Footer() {
         </div>
         <div className="flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
           <div className="flex gap-2">
-            <IconButton
-              variant="text"
-              color="white"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-            >
-              <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
-            </IconButton>
-            <IconButton
-              variant="text"
-              color="white"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-            >
-              <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
-            </IconButton>
+         <IconButton
+  variant="text"
+  color="white"
+   {...({} as any)}
+>
+  <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
+</IconButton>
+<IconButton
+  variant="text"
+  color="white"
+   {...({} as any)}
+>
+  <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
+</IconButton>
+
           </div>
         </div>
       </div>
