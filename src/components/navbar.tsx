@@ -131,6 +131,9 @@ export function Navbar() {
               ))}
             </ul>
             
+
+
+            
             <div className="flex justify-center space-x-6 mt-6 pt-6 border-t border-white/10">
               {[
                 { icon: "fa-facebook", color: "hover:text-blue-500" },
