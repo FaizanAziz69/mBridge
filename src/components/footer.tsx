@@ -3,6 +3,10 @@ import Image from "next/image";
 import { Typography, IconButton, Button } from "@material-tailwind/react";
 
 export function Footer() {
+  // Define empty handler functions
+  const handlePointerEvent = () => {};
+  const handleResize = () => {};
+
   return (
     <footer className="bg-gray-700 px-8 pt-12 w-full">
       <div className="container mx-auto">
@@ -15,33 +19,34 @@ export function Footer() {
               variant="h5"
               color="white"
               className="mb-1"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
+              onPointerEnterCapture={handlePointerEvent}
+              onPointerLeaveCapture={handlePointerEvent}
+              onResize={handleResize}
+              onResizeCapture={handleResize}
             >
               Media Bridge
             </Typography>
             <Typography 
               color="white" 
               className="mb-12 font-normal"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
+              onPointerEnterCapture={handlePointerEvent}
+              onPointerLeaveCapture={handlePointerEvent}
+              onResize={handleResize}
+              onResizeCapture={handleResize}
             >
               News You Can Trust, Stories That Matter
             </Typography>
-            <ul className="flex flex-wrap items-center justify-center md:justify-start">
-              <a href="/deleteaccount" className="!text-gray-200 font-medium underline">Need to delete your account?</a>
-            </ul>
+            {/* ...existing code for ul... */}
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography 
               variant="h6" 
               color="white" 
               className="mb-3"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
+              onPointerEnterCapture={handlePointerEvent}
+              onPointerLeaveCapture={handlePointerEvent}
+              onResize={handleResize}
+              onResizeCapture={handleResize}
             >
               Contact
             </Typography>
@@ -49,9 +54,10 @@ export function Footer() {
               <Typography
                 color="white"
                 className="flex items-center justify-center"
-                placeholder=""
-                onPointerEnterCapture={() => {}}
-                onPointerLeaveCapture={() => {}}
+                onPointerEnterCapture={handlePointerEvent}
+                onPointerLeaveCapture={handlePointerEvent}
+                onResize={handleResize}
+                onResizeCapture={handleResize}
               >
                 PH +92 42 3 5023505,
                 Cell: +92 300 4302322,
@@ -61,9 +67,10 @@ export function Footer() {
               <Typography
                 color="white"
                 className="flex items-center justify-center"
-                placeholder=""
-                onPointerEnterCapture={() => {}}
-                onPointerLeaveCapture={() => {}}
+                onPointerEnterCapture={handlePointerEvent}
+                onPointerLeaveCapture={handlePointerEvent}
+                onResize={handleResize}
+                onResizeCapture={handleResize}
               >
                 E-mail: mediabridgeall@yahoo.com www.mediabridgepk.com
               </Typography>
@@ -75,18 +82,12 @@ export function Footer() {
             <IconButton 
               variant="text" 
               color="white"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
             >
               <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
             </IconButton>
             <IconButton 
               variant="text" 
               color="white"
-              placeholder=""
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
             >
               <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
             </IconButton>
