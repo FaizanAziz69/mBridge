@@ -12,21 +12,19 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
-            <Typography
-              as="a"
-              href="#"
-              target="_blank"
-              variant="h5"
-              color="white"
-              className="mb-1"
-              placeholder={undefined} 
-              onPointerEnterCapture={undefined} 
-              onPointerLeaveCapture={undefined}
-              onResize={undefined}
-              onResizeCapture={undefined}
-            >
-              Media Bridge
-            </Typography>
+           <Typography
+  as="a"
+  href="#"
+  target="_blank"
+  variant="h5"
+  color="white"
+  className="mb-1"
+  placeholder={undefined}
+  onPointerEnterCapture={undefined}
+  onPointerLeaveCapture={undefined}
+>
+  Media Bridge
+</Typography>
             <Typography 
               color="white" 
               className="mb-12 font-normal"  
