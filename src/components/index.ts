@@ -3,6 +3,6 @@
 export * from "./navbar";
 // export * from "./footer";
 export * from "./layout";
-// export * from "./footer";
+export * from "./footer";
 // export * from "./info-card";
 

@@ -1,5 +1,5 @@
 // components
-import { Navbar } from "@/components";
+import { Navbar,Footer } from "@/components";
 
 // sections
 import Hero from "./hero";
@@ -13,7 +13,7 @@ export default function Campaign() {
       <Navbar />
       <Hero />
       <MobileConvenience />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
